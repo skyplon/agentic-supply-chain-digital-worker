@@ -107,7 +107,7 @@ These scenarios demonstrate how the digital worker:
 
 Shows the disruption event entering the system and the digital worker being activated.
 
-Event Trigger
+
 
 ---
 
@@ -115,7 +115,7 @@ Event Trigger
 
 The Planner Agent performs disruption understanding, impact analysis, supplier dependency analysis, and operational continuity reasoning.
 
-Planner Agent
+
 
 ---
 
@@ -123,7 +123,7 @@ Planner Agent
 
 The Executor Agent executes mitigation workflows, checks inventory, selects alternative suppliers, updates orders, and generates final operational decisions.
 
-Executor Agent
+
 
 ---
 
