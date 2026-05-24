@@ -6,17 +6,21 @@ Built as a high-level proof of concept inspired by emerging enterprise agentic A
 
 ---
 
-## 🚀 Overview
+## 🌐 Live Demo
 
-This project demonstrates a simplified AI operations control tower capable of:
+Launch the live prototype here:
 
-- Detecting supply chain disruptions
-- Analyzing operational impact
-- Orchestrating workflows
-- Executing mitigation actions
-- Providing observability into AI reasoning and decisions
+👉 [https://agentic-supply-chain-digital-worker.streamlit.app/](https://agentic-supply-chain-digital-worker.streamlit.app/)
+
+The demo simulates an agentic AI digital worker capable of:
+
+- detecting supply chain disruptions
+- reasoning through operational impact
+- orchestrating mitigation workflows
+- executing simulated enterprise actions
 
 The prototype combines:
+
 - LLM-based reasoning
 - Workflow orchestration concepts
 - Simulated enterprise integrations
@@ -38,18 +42,62 @@ This prototype focuses on enterprise operational workflows where AI agents coord
 
 ---
 
-## 🏭 Example Scenario
+## 🧪 Test Scenarios
 
-> “Bosch Rexroth cannot deliver hydraulic pumps for the next 3 days, impacting production orders.”
+Use the following example disruption events to test the prototype:
 
-The agent autonomously:
+---
 
-1. Understands the disruption
-2. Analyzes impacted orders
-3. Checks inventory levels
-4. Finds mitigation options
-5. Selects alternative suppliers
-6. Updates operational workflows
+### 1️⃣ Supplier Disruption Scenario
+
+```text
+We just received a notification that Bosch Rexroth will not be able to deliver hydraulic pumps for the next 3 days, which may impact current production orders
+```
+
+Tests:
+
+- supplier disruption handling
+- impact analysis
+- mitigation orchestration
+- alternative supplier selection
+
+---
+
+### 2️⃣ Inventory Shortage Scenario
+
+```text
+Inventory shortage detected for electronic control units impacting production schedules
+```
+
+Tests:
+
+- inventory analysis
+- production risk assessment
+- operational continuity planning
+
+---
+
+### 3️⃣ Critical Operational Escalation
+
+```text
+Critical delay in control valve shipments from Parker Hannifin, high-priority customer orders at risk
+```
+
+Tests:
+
+- high-priority operational escalation
+- customer order impact analysis
+- rapid mitigation workflows
+
+---
+
+These scenarios demonstrate how the digital worker:
+
+1. Understands disruptions
+2. Analyzes operational impact
+3. Coordinates workflows
+4. Executes mitigation actions
+5. Produces business-oriented outcomes
 
 ---
 
@@ -59,7 +107,7 @@ The agent autonomously:
 
 Shows the disruption event entering the system and the digital worker being activated.
 
-![Event Trigger](assets/demo_input.png)
+Event Trigger
 
 ---
 
@@ -67,7 +115,7 @@ Shows the disruption event entering the system and the digital worker being acti
 
 The Planner Agent performs disruption understanding, impact analysis, supplier dependency analysis, and operational continuity reasoning.
 
-![Planner Agent](assets/demo_reasoning.png)
+Planner Agent
 
 ---
 
@@ -75,31 +123,35 @@ The Planner Agent performs disruption understanding, impact analysis, supplier d
 
 The Executor Agent executes mitigation workflows, checks inventory, selects alternative suppliers, updates orders, and generates final operational decisions.
 
-![Executor Agent](assets/demo_execution.png)
+Executor Agent
 
 ---
 
 ## ⚙️ Core Features
 
 ### 🧠 Agent Reasoning Layer
+
 - LLM-based disruption analysis
 - Multi-step workflow reasoning
 - Confidence scoring
 - Expandable reasoning traces
 
 ### 🔄 Workflow Orchestration
+
 - Sequential execution flow
 - Retry + failure handling
 - Planner vs Executor agent simulation
 - Tool orchestration
 
 ### 🏢 Enterprise Workflow Simulation
+
 - Supplier disruptions
 - Inventory shortages
 - ERP-style workflow actions
 - Production impact analysis
 
 ### 📊 Business Impact Metrics
+
 - Orders saved
 - Delay reduction
 - Operational continuity insights
@@ -111,12 +163,15 @@ The Executor Agent executes mitigation workflows, checks inventory, selects alte
 The prototype is structured into three conceptual layers:
 
 ### 1. Reasoning Layer
+
 LLM-powered understanding and planning.
 
 ### 2. Orchestration Layer
+
 Controls workflow execution and agent coordination.
 
 ### 3. Execution Layer
+
 Simulated enterprise systems and operational actions.
 
 ---
