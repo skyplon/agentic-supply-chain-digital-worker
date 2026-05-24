@@ -107,7 +107,7 @@ These scenarios demonstrate how the digital worker:
 
 Shows the disruption event entering the system and the digital worker being activated.
 
-
+<img src="./assets/demo_input.png" width="100%">
 
 ---
 
@@ -115,7 +115,7 @@ Shows the disruption event entering the system and the digital worker being acti
 
 The Planner Agent performs disruption understanding, impact analysis, supplier dependency analysis, and operational continuity reasoning.
 
-
+<img src="./assets/demo_reasoning.png" width="100%">
 
 ---
 
@@ -123,7 +123,7 @@ The Planner Agent performs disruption understanding, impact analysis, supplier d
 
 The Executor Agent executes mitigation workflows, checks inventory, selects alternative suppliers, updates orders, and generates final operational decisions.
 
-
+<img src="./assets/demo_execution.png" width="100%">
 
 ---
 
